@@ -135,6 +135,13 @@ Belirtilen isimdeki branch'a geçiş yapar.
 
     NOT: Visual Studio Code ile çalışırken, sol alt köşede üzerinde çalıştığınız branch ismini görebilirsiniz.
 
+### Bir commit geriye gitmek için
+
+git reset --hard HEAD~1
+
+eğer ki bunu github üzerinde de düzeltmek istiyorsak
+
+git push origin +main
 
 ## Faydalı bulabileceğiniz linkler
 [GitHub'da son yapılan yanlış commit nasıl geri alınır?](https://www.youtube.com/watch?v=RG7dJln5y0Y)
